@@ -1,16 +1,29 @@
 {
   "name": "formail-hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "A utility for submitting forms to formail.dev",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm test && npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "formail",
+    "hooks",
+    "form",
+    "submission"
+  ],
+  "author": "Sean Gray",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seangray-dev/formail-hooks"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "devDependencies": {
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.12",
