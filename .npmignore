@@ -1,0 +1,6 @@
+__tests__/
+test/
+jest.config.js
+tsconfig.json
+*.test.ts
+*.spec.ts
