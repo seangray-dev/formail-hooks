@@ -1,6 +1,6 @@
 {
   "name": "formail-hooks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A utility for submitting forms to formail.dev",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -22,7 +22,9 @@
     "url": "https://github.com/seangray-dev/formail-hooks"
   },
   "files": [
-    "dist/**/*"
+    "dist/**",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
     "@jest/globals": "^29.7.0",

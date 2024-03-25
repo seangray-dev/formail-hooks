@@ -1,6 +1,11 @@
-__tests__/
-test/
-jest.config.js
+# Exclude source files
+src/
+
+# Exclude configuration files
+jest.config.ts
 tsconfig.json
+
+# Exclude test directories and files
+__tests__/
 *.test.ts
 *.spec.ts
